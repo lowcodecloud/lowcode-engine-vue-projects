@@ -1,0 +1,27 @@
+{
+  "name": "@lowcodecloud/lowcode-engine-vue-projects",
+  "version": "1.0.0",
+  "description": "lowcode-engine-vue-projects",
+  "main": "index.js",
+  "scripts": {
+    "build": "sh ./scripts/build.sh",
+    "start": "sh ./scripts/start.sh"
+  },
+  "keywords": [
+    "lowcode",
+    "lowcode-engin",
+    "vue"
+  ],
+  "author": "qinning",
+  "license": "MIT",
+  "devDependencies": {
+    "react": "^16",
+    "react-dom": "^16.7.0",
+    "vue": "^2.6.14",
+    "f2elint": "^2.0.1",
+    "typescript": "^4.5.5"
+  },
+  "engines": {
+    "node": ">=14.17.0 <16"
+  }
+}

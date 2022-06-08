@@ -1,10 +1,11 @@
 import { createElement } from 'react';
-import { applyVueInReact } from 'vuereact-combined';
-
 import { CreateElementAdapter } from './create-element-adapter';
+import Vue2ReactWrapper from './Vue2ReactWrapper';
 
 export class Vue2CreateElementAdapter implements CreateElementAdapter {
   create(component: any, props: any, ...children: any): any {
-    return createElement(applyVueInReact(component) as any, props, ...children);
+    let $vueComponent = component;
+    let newProps = { $vueComponent, ...props };
+    return createElement(Vue2ReactWrapper, newProps, ...children);
   }
 }

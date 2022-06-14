@@ -1,0 +1,44 @@
+{
+  "name": "@lowcodecloud/lowcode-engine-vue-renderer-core",
+  "version": "1.0.0",
+  "description": "lowcode-engine-vue-renderer-core",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "lib",
+    "es",
+    "dist"
+  ],
+  "scripts": {
+    "build": "build-scripts build --skip-demo"
+  },
+  "keywords": [
+    "lowcode",
+    "engine",
+    "vue"
+  ],
+  "dependencies": {
+    "@alifd/next": "^1.21.16",
+    "@alilc/lowcode-renderer-core": "^1.0.9",
+    "@alilc/lowcode-types": "^1.0.9",
+    "@alilc/lowcode-utils": "^1.0.9",
+    "react": "^16"
+  },
+  "devDependencies": {
+    "@alib/build-scripts": "^0.1.18",
+    "@types/node": "^13.7.1",
+    "@types/react": "^16",
+    "@types/react-dom": "^16",
+    "@types/react-router": "^5.1.17",
+    "build-plugin-component": "^0.2.10",
+    "react-test-renderer": "^16"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "http",
+    "url": "https://github.com/lowcodecloud"
+  }
+}

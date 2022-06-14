@@ -1,15 +1,6 @@
 # project custom
 build
 dist
-packages/*/lib/
-packages/*/es/
-packages/*/dist/
-packages/*/output/
-packages/demo/
-package-lock.json
-yarn.lock
-deploy-space/packages
-deploy-space/.env
 
 
 # IDE
@@ -63,9 +54,6 @@ typings/
 # Optional npm cache directory
 .npm
 
-# pnpm
-pnpm-lock.yaml
-
 # Optional eslint cache
 .eslintcache
 
@@ -105,7 +93,3 @@ pnpm-lock.yaml
 
 # mac config files
 .DS_Store
-
-# codealike
-codealike.json
-.node

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "sh ./scripts/build.sh",
-    "start": "pnpm start:vue2",
+    "start": "pnpm start:vue3",
     "start:vue2": "pnpm --filter=@lowcodecloud/lowcode-vue2-demo start",
     "start:vue3": "pnpm --filter=@lowcodecloud/lowcode-vue3-demo start"
   },

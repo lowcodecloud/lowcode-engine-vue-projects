@@ -16,3 +16,4 @@ pnpm --filter=@lowcodecloud/lowcode-engine-vue3-simulator-renderer build
 pnpm --filter=@lowcodecloud/lowcode-engine-vue3-simulator-renderer build:umd
 
 cp -r packages/vue3-simulator-renderer/dist/* examples/lowcode-vue3-demo/public/simulator/
+
